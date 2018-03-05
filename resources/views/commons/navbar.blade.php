@@ -17,6 +17,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     
                      @if (Auth::check())
+                       
                         <li>{!! link_to_route('users.index', 'Users') !!}</li>
                         
                         <li class="dropdown">
